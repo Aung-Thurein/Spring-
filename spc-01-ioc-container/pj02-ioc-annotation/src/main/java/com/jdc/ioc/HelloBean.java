@@ -1,9 +1,12 @@
 package com.jdc.ioc;
 
-public class HelloBean {
+import org.springframework.stereotype.Component;
 
+@Component
+public class HelloBean {
+	
 	public String sayHello()
 	{
-		return "Hello From Java Config Bean";
+		return "Hello From Annotation config spring bean.";
 	}
 }

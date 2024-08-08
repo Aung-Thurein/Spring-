@@ -4,9 +4,9 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class AnnotatedBean {
-	
-	public String sayHello()
+
+	public String sayHello() 
 	{
-		return "Hello From AnnotatedBean";
+		return "Hello From Annotated Bean";
 	}
 }

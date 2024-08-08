@@ -38,5 +38,9 @@
 	<modules>
 		<module>pj01-ioc-container-xml</module>
 		<module>pj02-ioc-annotation</module>
+		<module>pj04-post-processors</module>
+		<module>pjo3-ioc-container-java</module>
+		<module>pj03-ioc-container-java</module>
+		<module>pj05-event-listener</module>
 	</modules>
 </project>
