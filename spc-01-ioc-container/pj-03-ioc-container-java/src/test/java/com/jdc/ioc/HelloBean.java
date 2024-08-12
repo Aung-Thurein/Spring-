@@ -4,6 +4,8 @@ public class HelloBean {
 
 	public String sayHello()
 	{
-		return "Hello Spring IoC Container";
+		return "Hello From Java Config Bean.";
 	}
+
 }
+

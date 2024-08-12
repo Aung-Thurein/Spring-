@@ -1,10 +1,10 @@
 package com.jdc.ioc;
 
 import org.junit.jupiter.api.Test;
-import org.springframework.context.support.GenericApplicationContext;
 import org.springframework.context.support.GenericXmlApplicationContext;
 
 public class HelloBeanTest {
+
 
 	@Test
 	public void Test()
@@ -19,3 +19,4 @@ public class HelloBeanTest {
 		}
 	}
 }
+
