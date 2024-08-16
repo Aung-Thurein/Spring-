@@ -22,6 +22,7 @@
 
 	<dependencies>
 
+	
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter</artifactId>
@@ -42,5 +43,6 @@
 		<module>pjo3-ioc-container-java</module>
 		<module>pj03-ioc-container-java</module>
 		<module>pj05-event-listener</module>
+		<module>pj-03-ioc-container-java</module>
 	</modules>
 </project>
