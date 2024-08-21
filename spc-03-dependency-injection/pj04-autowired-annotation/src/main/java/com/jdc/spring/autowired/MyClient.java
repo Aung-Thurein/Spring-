@@ -6,6 +6,7 @@ import lombok.RequiredArgsConstructor;
 
 @Component
 @RequiredArgsConstructor
+
 public class MyClient {
 
 //Dependency
@@ -13,7 +14,7 @@ public class MyClient {
 //	@Autowired
 //	MyService service;
 
-	private final MyService service;
+	private final MyService service;  // <= can autowired with final
 	
 
 	public void showMessage()
